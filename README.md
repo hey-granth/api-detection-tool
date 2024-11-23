@@ -1,0 +1,1 @@
+i sometimes mistakenly push my API keys onto github without adding it onto gitignore file. Since it;s really tough to clean the commit history and remove it from github, i have planned to make a python api detection tool which warns me if i accidentally add a file with any sensitive api key info to git bash on the terminal itself.
