@@ -34,7 +34,7 @@ API Key Detector is a sophisticated security tool designed to prevent accidental
 ### Package Installation
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/api-key-detector.git
+git clone https://github.com/yourusername/api-detection-tool.git
 
 # Navigate to project directory
 cd api-key-detector
