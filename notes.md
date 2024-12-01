@@ -2,7 +2,7 @@
 
 ## Logging module
 
-![img.png](logging.png)
+![img.png](notes-ss/logging.png)
 
 ## Typing module
 
