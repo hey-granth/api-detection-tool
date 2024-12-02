@@ -2,8 +2,8 @@ import sys
 import logging
 from pathlib import Path
 
-from .core import APIKeyDetector
-from .utils import get_git_staged_files, skip_file
+from core import APIKeyDetector
+from utils import get_git_staged_files, skip_file
 
 
 def main():
