@@ -34,10 +34,10 @@ API Key Detector is a sophisticated security tool designed to prevent accidental
 ### Package Installation
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/api-detection-tool.git
+git clone https://github.com/hey-granth/api-detection-tool.git
 
 # Navigate to project directory
-cd api-key-detector
+cd api-detection-tool
 
 # Install the package
 pip install .
@@ -46,7 +46,7 @@ pip install .
 ## Configuration
 
 ### Detection Patterns
-Customize secret detection by modifying patterns in `src/api_key_detector/core.py`. The default configuration supports:
+Customize secret detection by modifying patterns in `src/core.py`. The default configuration supports:
 - Generic long-string patterns
 - Service-specific key formats (Stripe, AWS)
 - Environment variable detection
@@ -70,7 +70,7 @@ chmod +x .git/hooks/pre_commit
 ### Manual Scanning
 ```bash
 # Scan staged files
-python -m api_key_detector
+python -m api-detection-tool
 
 # Bypass detection (use with caution)
 git commit --no-verify
