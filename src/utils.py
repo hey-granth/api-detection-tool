@@ -2,7 +2,7 @@ import subprocess
 from typing import List
 from pathlib import Path
 
-def get_get_staged_files() -> List[Path]:
+def get_git_staged_files() -> List[Path]:
     try:
         staged_files = subprocess.run(['git', 'diff', '--staged', '--name-only'], capture_output=True, text=True, check=True)
         return [Path(file) for file in staged_files.stdout.split('\n') if file]
