@@ -316,6 +316,10 @@ def skip_file(file_path: Path) -> bool:
         ".m4v",
         ".mov",
         ".avi",
+        ".wmv",
+        ".flv",
+        ".mkv",
+        ".webm",
     ]
 
     return (
